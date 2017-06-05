@@ -14,7 +14,7 @@ public class CameraControl : MonoBehaviour
     private Vector3 m_DesiredPosition; // the position the camera is trying to reach (the position between the two tanks, their average pos)
 
 
-    private void Awake() // setuo all references
+    private void Awake() // setup all references
     {
         m_Camera = GetComponentInChildren<Camera>();
         // create a reference to main camera (must use "InChildren" because main camera is a child)
